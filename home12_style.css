@@ -1,0 +1,31 @@
+#fon {
+    background-image: url("svetafor.png");
+    width: 400px;
+    height: 684px;
+	position: relative;
+	margin: 0px auto;
+}
+
+#fon div {
+	border: 1px solid white;
+    width: 162px;
+    height: 162px;
+    position: absolute;
+    left: 120px;
+	border-radius: 50%;
+}
+
+.luys1 {
+	top: 49px;
+	background-color: red;
+}
+
+.luys2 {
+	top: 238px;
+	background-color: yellow;
+}
+
+.luys3 {
+	bottom: 93px;
+	background-color: green;
+}

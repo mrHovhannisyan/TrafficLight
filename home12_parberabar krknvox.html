@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Home12 svetafor</title>
+		<link rel="stylesheet" type="text/css" href="home12_style.css">
+	</head>
+	<body>
+		<div id="fon">
+			<div id="mek" class="luys1"></div>
+			<div id="erku" class="luys2"></div>
+			<div id="ereq" class="luys3"></div>
+		</div>
+	</body>
+</html>
+
+<script type="text/javascript">
+	var mek = document.getElementById("mek");
+	var erku = document.getElementById("erku");
+	var ereq = document.getElementById("ereq");
+		mek.style.backgroundColor = "rgba(174,174,172,1)";
+		erku.style.backgroundColor = "rgba(174,174,172,1)";
+		
+		setTimeout(function() {
+			ereq.style.backgroundColor = "rgba(174,174,172,1)";
+			erku.style.backgroundColor = "yellow";
+		}, 20000);
+		setTimeout(function() {
+			erku.style.backgroundColor = "rgba(174,174,172,1)";
+			mek.style.backgroundColor = "red";
+		}, 23000);
+		setTimeout(function() {
+			mek.style.backgroundColor = "rgba(174,174,172,1)";
+		}, 33000);
+			
+	setInterval(function() {
+		ereq.style.backgroundColor = "green";
+		setTimeout(function() {
+			ereq.style.backgroundColor = "rgba(174,174,172,1)";
+			erku.style.backgroundColor = "yellow";
+		}, 20000);
+		setTimeout(function() {
+			erku.style.backgroundColor = "rgba(174,174,172,1)";
+			mek.style.backgroundColor = "red";
+		}, 23000);
+		setTimeout(function() {
+			mek.style.backgroundColor = "rgba(174,174,172,1)";
+		}, 33000);
+		console.log(setTimeout);
+	}, 33000);
+</script>
